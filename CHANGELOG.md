@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/alxdem/bin-list-fake/compare/v1.0.0...v1.0.1) (2025-06-22)
+
+
+### Bug Fixes
+
+* **versioning:** Remove version ([2acd114](https://github.com/alxdem/bin-list-fake/commit/2acd114c91dbbb5ffa49ff3192389d4b2d164408))
+
 # 1.0.0 (2025-06-22)
 
 
