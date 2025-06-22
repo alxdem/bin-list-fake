@@ -28,7 +28,7 @@ jobs:
           always-auth: true
 
       - name: Check npm auth token
-        run: npm config get //registry.npmjs.org/:_authToken
+        run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
