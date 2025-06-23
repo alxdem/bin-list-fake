@@ -5,9 +5,11 @@
     "outDir": "dist",
     "strict": true,
     "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
     "moduleResolution": "node",
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "declaration": false
   },
-  "include": ["src", "src/images.d.ts"],
+  "include": ["src", "index.ts"],
   "exclude": ["dist", "node_modules"]
 }

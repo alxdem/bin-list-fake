@@ -1,5 +1,6 @@
 import typescript from '@rollup/plugin-typescript';
 import dts from 'rollup-plugin-dts';
+import resolve from '@rollup/plugin-node-resolve';
 import copy from 'rollup-plugin-copy';
 import url from '@rollup/plugin-url';
 
@@ -13,10 +14,16 @@ export default [
         plugins: [
             url({
                 include: ['**/*.png'],
-                limit: 0,
-                emitFiles: false,
+                limit: Infinity,
+                emitFiles: false
             }),
-            typescript(),
+            resolve({
+                extensions: ['.js', '.ts', '.png'],
+            }),
+            typescript({
+                tsconfig: './tsconfig.json',
+                declaration: false
+            }),
             copy({
                 targets: [
                     { src: 'src/assets/*', dest: 'dist/assets'}
