@@ -10,8 +10,11 @@
 <body>
 <script type="module">
     import { getBankData } from '../dist/index.esm.js';
-    const result = getBankData(6);
-    console.log('result', result);
+    const result = getBankData(55);
+    console.log('result', result.logo);
+    const img = '<img src="../dist/assets' + result.logo + '" alt="">';
+    document.body.innerHTML = img;
 </script>
+
 </body>
 </html>
