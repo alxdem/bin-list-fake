@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/alxdem/bin-list-fake/compare/v1.0.1...v1.1.0) (2025-06-23)
+
+
+### Features
+
+* **logos:** Added logos and colors ([755a794](https://github.com/alxdem/bin-list-fake/commit/755a794a7b18b5bb554fdb0f9f183d6dc58449b4))
+
 ## [1.0.1](https://github.com/alxdem/bin-list-fake/compare/v1.0.0...v1.0.1) (2025-06-22)
 
 
