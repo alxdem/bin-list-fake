@@ -8,6 +8,6 @@
     "moduleResolution": "node",
     "skipLibCheck": true
   },
-  "include": ["src"],
+  "include": ["src", "src/images.d.ts"],
   "exclude": ["dist", "node_modules"]
 }

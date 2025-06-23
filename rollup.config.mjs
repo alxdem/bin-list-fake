@@ -1,6 +1,7 @@
 import typescript from '@rollup/plugin-typescript';
 import dts from 'rollup-plugin-dts';
 import copy from 'rollup-plugin-copy';
+import url from '@rollup/plugin-url';
 
 export default [
     {
@@ -10,6 +11,11 @@ export default [
             { file: 'dist/index.esm.js', format: 'esm' },
         ],
         plugins: [
+            url({
+                include: ['**/*.png'],
+                limit: 0,
+                emitFiles: false,
+            }),
             typescript(),
             copy({
                 targets: [
