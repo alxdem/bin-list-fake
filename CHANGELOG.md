@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/alxdem/bin-list-fake/compare/v1.1.2...v1.1.3) (2025-06-23)
+
+
+### Bug Fixes
+
+* **images:** Fixed generation Base64 format ([002ab6c](https://github.com/alxdem/bin-list-fake/commit/002ab6ce4dc28840c3aefcbb36024ede01fc2991))
+
 ## [1.1.2](https://github.com/alxdem/bin-list-fake/compare/v1.1.1...v1.1.2) (2025-06-23)
 
 
