@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/alxdem/bin-list-fake/compare/v1.1.0...v1.1.1) (2025-06-23)
+
+
+### Bug Fixes
+
+* **build:** Added build before realise ([19bbf18](https://github.com/alxdem/bin-list-fake/commit/19bbf18bdb074c588f2785eccfaf6ddf607cf4b7))
+
 # [1.1.0](https://github.com/alxdem/bin-list-fake/compare/v1.0.1...v1.1.0) (2025-06-23)
 
 
